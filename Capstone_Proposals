@@ -6,8 +6,8 @@ Nathan Black
 
 1. Song Hit Prediction
 
-Problem: A music recording label receives thousands of submissions by artists who are looking to be signed or sell their song
-to be performed by artists who are already in the industry. Reviewers working at these recording companies must determine which 
+Problem: A music recording label receives thousands of submissions by artists who are looking to be signed by the label or sell 
+their song to be performed by artists who are already in the industry. Reviewers working at these recording companies must determine 
 which artists and/or songs to invest in based on the expected potential of the song being released on the market. While tools do
 exist to assist reviewers with this task, the process remains primarily manual.
 
@@ -21,5 +21,22 @@ append a song-success dependent variable needed for this project. As time permit
 if they improve the predictive power of the model.
 
 
-2. Call Center Issue Classification
-Problem: 
+2. Call Center Sentiment Analysis and Topic Modeling
+Problem: The management at a call center would like to determine customers' call experience favorability and categorize calls by topic.
+This will be used for hiring and training call center staff.
+
+Solution: Build a model to indicate the sentiment of the inbound caller based on linguistic variables. Build an additional model to
+classify call conversations into a digestable number of topics.
+
+Data: The data will be sourced from the American National Corpus and will include call log attributes as well as call transcripts.
+
+3. Dress for the Job You Want
+Problem: Individuals seeking to build their careers must dress to impress if they are to be taken seriously at their place of 
+employment. However, many (especially those new to the workforce) face the challenge of not having a sense for what the appropriate
+dress should be nor what kind of impression they are giving off when they wear the outfits they currently own.
+
+Soution: Build a model that classifies images of outfits into matching job roles (e.g. Intern, Junior Employee, Management,
+Director, C-Suite). Individuals would input images of their daily outfits into the model and the output would be the closest matching
+job role to their current outfit. 
+
+Data: The data will be sourced from google images. 
