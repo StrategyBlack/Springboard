@@ -1,0 +1,25 @@
+Project Proposals
+Springboard Data Science Intensive
+2017-07-01
+Nathan Black
+
+
+1. Song Hit Prediction
+
+Problem: A music recording label receives thousands of submissions by artists who are looking to be signed or sell their song
+to be performed by artists who are already in the industry. Reviewers working at these recording companies must determine which 
+which artists and/or songs to invest in based on the expected potential of the song being released on the market. While tools do
+exist to assist reviewers with this task, the process remains primarily manual.
+
+Solution: Build a model to predict the success of a song release based on song characteristics (e.g. genre, harmonic progression,
+structure, loudness, tempo, meter, complexity, syncopation, repitition, mood, etc). The model would be used by reviewers
+to filter the selection of candidate songs and boost ROI for songs the music label releases.
+
+Data: The data will be sourced from UCI Machine Learning Repository and will include approximately half-a-million records with 90 
+song variables. Since this data was gathered to be used for a different purpose, additional sources of data will be required to 
+append a song-success dependent variable needed for this project. As time permits, other data sources will be explored and added
+if they improve the predictive power of the model.
+
+
+2. Call Center Issue Classification
+Problem: 
