@@ -1,0 +1,37 @@
+Capstone Project Proposal: Song Hit Prediction
+Springboard Data Science Intensive
+Nathan Black
+2017-07-22
+
+
+What is the problem you want to solve?
+
+A music recording label receives thousands of submissions by artists who are looking to be signed by the label or sell 
+their song to be performed by artists who are already in the industry. Reviewers working at these recording companies must determine 
+which artists and/or songs to invest in based on the expected potential of the song being released on the market. While tools do
+exist to assist reviewers with this task, the process remains primarily manual.
+
+What data are you going to use for this? How will you acquire this data?
+
+The data will be sourced from UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd) and will 
+include approximately half-a-million records with 90 song variables. Since this data was gathered to be used for a different purpose, 
+additional sources of data including Billboard's year-end chart data (http://www.billboard.com/charts/year-end) will be required to 
+append a song-success dependent variable needed for this project. As time permits, other data sources will be explored and added
+if they improve the predictive power of the model.
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+
+1. Data Collection: Extract data from sources listed above
+2. Data Preprocessing: Wrangle and munge data to prepare it for further analysis
+3. Exploratory Data Analysis: Explore data to find insights that guide the formation of hypotheses for what drives song success
+4. Feature Engineering: Reframe and combine variables to extract as much relevant information from the data as possible
+5. Modeling: Build and test a variety of models to find the one that performs the best
+6. Evaluation: Test selected model(s) to ensure generalization to new (unseen) data
+7. Deployment: Input model into production environment and test various cases to ensure model performs well for the end user
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+1. Code: Data collection, preparation, exploratory analysis, modeling steps and final model
+2. Paper: Methodology write-up
+3. Slide Deck: Presentation of findings and approach
+
